@@ -1,0 +1,16 @@
+{
+  "name": "frostpunk-tutorial",
+  "version": "1.0.0",
+  "description": "Web III peer tutorial",
+  "main": "src/index.html",
+  "scripts": {
+    "sync": "browser-sync start -s \"src\" -f \"src/**/*.*\"",
+    "start": "npm run sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julia Schantz",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}
